@@ -32,12 +32,12 @@ public class QLGV implements Interface_GV {
 
     @Override
     public void createObj() {
-        Giao_Vien gv = new Giao_Vien("Nam", "UDPM", 6000);
-        Giao_Vien gv1 = new Giao_Vien("Hậu", "TKDH", 3000);
-        Giao_Vien gv2 = new Giao_Vien("Duy", "TKTW", 10000);
-        insert(gv);
+        Giao_Vien gv1 = new Giao_Vien("Nam", "UDPM", 6000);
+        Giao_Vien gv2 = new Giao_Vien("Hậu", "TKDH", 3000);
+        Giao_Vien gv3 = new Giao_Vien("Duy", "TKTW", 10000);
         insert(gv1);
         insert(gv2);
+        insert(gv3);
     }
 
 }
